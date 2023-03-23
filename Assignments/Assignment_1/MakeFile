@@ -1,0 +1,10 @@
+# Practice making a make file for C
+all:
+	gcc -o min min.c -Wall -Werror
+	gcc -o pyramid pyramid.c -Wall -Werror
+	gcc -o roots roots.c -Wall -Werror
+	gcc -o stairs stairs.c -Wall -Werror
+	gcc -Wall -Werror -o binet binet.c -lm
+	gcc -o mccarthy mccarthy.c -Wall -Werror
+clean:
+	rm min pyramid roots stairs binet mccarthy
