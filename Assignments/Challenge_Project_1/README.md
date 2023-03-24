@@ -1,1 +1,1 @@
-Impliment the Polybius Square to incrypt and decrypt messages.
+Implement the Polybius Square to encrypt and decrypt messages.
